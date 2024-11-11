@@ -8,6 +8,9 @@ However, please bear in mind that all the codes in the Jupyter Notebook uploaded
 ## Dataset Overview
 The dataset contains more than **7M race records** registered between 1798 and 2022. More specifically, it contains **7,461,226 ultra-marathon race records from 1,641,168 unique athletes** in CSV format. The dataset can be downloaded on Kaggle [here](https://www.kaggle.com/datasets/aiaiaidavid/the-big-dataset-of-ultra-marathon-running/data).
 
+![image](https://github.com/user-attachments/assets/df78235e-06f5-4abc-a759-39177b64a296)
+
+
 ### Data Structure & Types
 Using a simple line of code on Python, we can take a peek at the structure of dataset: 7,461,195 rows and 13 columns!
 ![image](https://github.com/user-attachments/assets/3dee4755-306b-41f5-934d-6a58ca6a8947)
