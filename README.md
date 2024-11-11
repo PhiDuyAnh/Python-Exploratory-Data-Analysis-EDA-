@@ -1,2 +1,2 @@
 # Python Exploratory Data Analysis (EDA) Project
-**alo**
+This project uses a big dataset to do data cleaning and perform Exploratory Data Analysis (EDA), entirely with Python.
