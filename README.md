@@ -12,7 +12,11 @@ The dataset contains more than **7M race records** registered between 1798 and 2
 
 
 ### Data Structure & Types
-Using a simple line of code on Python, we can take a peek at the structure of dataset: 7,461,195 rows and 13 columns!
-![image](https://github.com/user-attachments/assets/3dee4755-306b-41f5-934d-6a58ca6a8947)
+Using a simple line of code on Python, we can take a peek at the structure of dataset: **7,461,195 rows** and **13 columns**!
 
+![image](https://github.com/user-attachments/assets/3dee4755-306b-41f5-934d-6a58ca6a8947).<br/>
+
+Regarding the data types, most columns are object-type with the exception of: Year of event (int), Event number of finishers (int), Athlete ID (int) and Athlete year of birth (float).
+
+![image](https://github.com/user-attachments/assets/36233c1c-3495-47a8-b2bd-70ea40da302a)
 
