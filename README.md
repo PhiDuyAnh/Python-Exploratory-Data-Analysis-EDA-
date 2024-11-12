@@ -48,6 +48,44 @@ The dataset contains more than **7M race records** registered between 1798 and 2
 
 ![image](https://github.com/user-attachments/assets/f679d405-820a-41ac-8020-9f08db76ebdd)
 
+## Exploratory Data Analysis
+
+### Plots and Graphs
+- Using **Seaborn**, we can see the number of 50km races is more than **triple** the number of 50 miles races from the **histogram** below. This is understandable because of the big difference in length between the two types of races.
+- It is also interesting that the number of male athletes is **higher** than female athletes in 50 miles races while they are **almost the same** in 50km races. 
+
+![image](https://github.com/user-attachments/assets/25fddb05-e3f3-4c2e-8aa5-0529bf316e0b)
+
+- The **distribution plot** below shows that most athletes have **average speed between 6-8km/h**.
+
+![image](https://github.com/user-attachments/assets/3bcae348-4246-4ca8-b840-37aa9690a9f0)
+
+- The **violin plot** shows the **distribution** of athlete average speed by gender in 50km and 50 miles races.
+- In the 50km plot, the male athlete distribution plot **slightly shifts upward** compared to female athlete indicating that in **shorter race**, male athletes have higher average speed. However, in **longer races** such as 50 miles, the average speed distribution plots of two genders are **almost identical**.
+
+![image](https://github.com/user-attachments/assets/fe39a501-116d-47c2-8c0b-365f86dfa601)
+
+### Using Groups
+- We can take a **closer look** at the **difference in speed** between males and females in these two types of race.
+- The difference in mean of athlete average speed between 2 genders is around **0.65km/h** in 50km races while the gap is smaller at **0.42km/h** in 50 miles races.
+
+![image](https://github.com/user-attachments/assets/df9031e2-e9d9-4a5e-9954-bcc60ad95d27)
+
+- **29-year-old athletes** perform the **best** in 50 miles races with the **highest** mean of athlete average speed at **7.9km/h**, taking into consideration the condition that each age must appear more than **20 times**.
+
+![image](https://github.com/user-attachments/assets/be181193-30ec-420b-ad72-8ae19bea5617)
+
+- After creating 2 new columns which are **race_month** and **race_season** from **race_day**, we can **compare** the mean of athlete average speed between each **seasons**.
+- We can clearly see the **big difference** in speed in **Summer** compared to other seasons. This is because it is much more difficult to run ultra-marathons in Summer due to the **heat** and **dehydration**.
+
+![image](https://github.com/user-attachments/assets/a3006679-fa7e-46f9-b281-743233c9ec9a)
+
+
+
+
+
+
+
 
 
 
